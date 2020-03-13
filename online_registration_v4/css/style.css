@@ -120,9 +120,9 @@ input[type="button"] {
     margin-bottom: 15em;
 }
 
-@media(min-width: 728px) {
+@media(min-width: 768px) {
     .wrap {
-        width: 60%;
+        width: 50%;
         max-width: 900px;
     }
 }
