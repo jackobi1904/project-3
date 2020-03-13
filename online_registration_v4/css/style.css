@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+.main-header {
+    background: #2D3946;
+    color: white;
+    text-align: center;
+    margin:0 auto 2em;
+    width: 100%;
+}
+.wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+.border-1 {
+    border-bottom: 3px solid black;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.border-2 {
+    margin: 2px auto 0;
+    border-top: 2px solid black;
+}
+fieldset {
+    border: none;
+}
+legend,
+h3 {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+::placeholder {
+    font-size: 1.3em;
+    text-align: right;
+    padding-right: 1em;
+    font-style: italic;
+    color: rgba(0,0,0, .3);
+}
+.select-items {
+    color: rgba(0,0,0, .3);
+    font-size: 1em;
+}
+textarea {
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    border: solid 2px #2D3946;
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+    background: #EFF0F1;
+    outline: none;
+}
+input,
+select {
+    height: 4em;
+}
+input[id="zip"] {
+    width: 50%;
+    margin-left: 0;
+}
+label,
+p {
+    font-size: 1.3em;
+    margin: 1em 0 .5em;
+}
+label,
+p,
+.main-footer {
+    color: rgba(0,0,0, .5);
+}
+.in-f input {
+    width: 25px;
+    margin-right: 1em;
+}
+.in-f input,
+.in-f label {
+    vertical-align: middle;
+    flex-wrap: nowrap;
+    height: 2em;
+}
+input[type="button"] {
+    background: #48BBB6;
+    color: white;
+    margin-top: 2em;
+    font-size: 1.3em;
+
+}
+.main-footer {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 15em;
+}
+
+@media(min-width: 728px) {
+    .wrap {
+        width: 60%;
+        max-width: 900px;
+    }
+}
