@@ -82,7 +82,9 @@ textarea {
 input:focus,
 textarea:focus,
 select:focus {
-    border: solid 2.5px rgb(255,127,80);
+    border-bottom: solid 2.5px black;
+    transition: background-color 0.7s ease-in;
+    background-color: rgb(255,127,80);
 }
 input,
 select,
@@ -155,11 +157,11 @@ button {
 :focus:invalid {
     border: solid 2.5px red;
 }
-input:focus,
+/* input:focus,
 textarea:focus,
 select:focus {
     background: rgba(255,127,80,.5);
-}
+} */
 @media(min-width: 768px) {
     .wrap {
         width: 60%;
