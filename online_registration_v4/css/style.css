@@ -19,10 +19,16 @@ body {
     width: 95%;
     margin: 0 auto;
 }
+h1 {
+    font-size: 1.5em;
+}
 h2 {
     margin-bottom: 5px;
     font-size: 1.5em;
     font-weight: bold;
+}
+h3 {
+    margin: 0;
 }
 
 .center {
@@ -39,10 +45,12 @@ h2 {
 }
 fieldset {
     border: none;
+    padding-bottom: 0;
 }
+
 legend,
 h3 {
-    padding-top: 1.5em;
+    padding-top: 1em;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -60,6 +68,9 @@ h3 {
 .select-items {
     color: rgba(0,0,0, .3);
     font-size: 1em;
+}
+.m-r {
+    margin-right: 4em;
 }
 textarea {
     resize: none;
@@ -81,17 +92,21 @@ textarea {
 }
 input,
 select {
-    height: 4em;
+    height: 3.5em;
 }
 input[id="zip"] {
     width: 50%;
     margin-left: 0;
 }
+label {
+    line-height: 2.5em;
+}
 label,
 p {
-    font-size: 1.3em;
-    margin: 1em 0 .5em;
+    font-size: 1.1em;
+    margin: 1em 0 1em;
 }
+span,
 label,
 p,
 .main-footer {
@@ -122,7 +137,30 @@ input[type="button"] {
 
 @media(min-width: 768px) {
     .wrap {
-        width: 50%;
-        max-width: 900px;
+        width: 60%;
     }
+    label,
+    p {
+        font-size: .9em;
+        margin-right: 1em;
+        justify-content: center;
+        align-self: center;
+    }
+    ::placeholder {
+        font-size: .9em;
+    }
+    .drop {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em 0;
+    }
+    
+    .drop input,
+    .drop select {
+        width: 75%;
+    }
+    .m-r {
+        margin: 0;
+    }
+   
 }
