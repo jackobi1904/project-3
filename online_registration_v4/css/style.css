@@ -70,7 +70,7 @@ h3 {
     font-size: 1em;
 }
 .m-r {
-    margin-right: 4em;
+    display: block;
 }
 textarea {
     resize: none;
