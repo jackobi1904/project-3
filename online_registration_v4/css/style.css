@@ -116,6 +116,9 @@ p,
     color: rgba(0,0,0, .5);
     font-family: "Merriweather", serif;
 }
+h3:nth-last-of-type(2) {
+    margin-bottom: 1em;
+}
 .in-f input {
     width: 25px;
     margin-right: 1em;
@@ -145,7 +148,9 @@ button {
     margin-top: 1.5em;
     margin-bottom: 15em;
 }
-
+.in-f:nth-of-type(4) {
+    margin-top: 1em;
+}
 :focus:invalid {
     border: solid 1px tomato;
 }
