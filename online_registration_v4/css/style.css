@@ -104,7 +104,6 @@ label {
 label,
 p {
     font-size: 1.1em;
-    margin: 1em 0 1em;
 }
 span,
 label,
@@ -141,10 +140,10 @@ input[type="button"] {
     }
     label,
     p {
-        font-size: .9em;
-        margin-right: 1em;
+        font-size: 1em;
         justify-content: center;
         align-self: center;
+        margin: auto 0;
     }
     ::placeholder {
         font-size: .9em;
@@ -157,10 +156,14 @@ input[type="button"] {
     
     .drop input,
     .drop select {
-        width: 75%;
+        width: 70%;
+    }
+    input[id="zip"] {
+        margin-right: 35%;
+        width: 35%;
     }
     .m-r {
         margin: 0;
     }
-   
+  
 }
